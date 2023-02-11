@@ -1,0 +1,57 @@
+.projetos__card-conteudo {
+    bottom: 0;
+    opacity: 0;
+    padding: 1.5rem 3rem;
+    position: absolute;
+    text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, .6);
+    transition: all 1s;
+    visibility: hidden;
+}
+
+.projetos__card-conteudo h2 {
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.projetos__card-conteudo h3 {
+    color: #797c7c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-bottom: 1.3rem;
+    margin-top: .5rem;
+}
+
+.projetos__card-conteudo p {
+    color: #eee;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    width: 85%;
+}
+
+.projetos__card-conteudo button {
+    background: #b7b9b9;
+    background: -webkit-linear-gradient(to right, #808080, #b9b9b9);
+    background: linear-gradient(to right, #808080, #b9b9b9); 
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 8rem;
+}
+
+.projetos__card-conteudo button a{
+    color: #eee;   
+    text-decoration: none;
+}
+
+.projetos__card:hover .projetos__card-conteudo {
+    bottom: .5rem;
+    opacity: 1;
+    visibility: visible;
+}

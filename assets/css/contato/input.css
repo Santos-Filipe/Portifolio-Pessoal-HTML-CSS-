@@ -1,0 +1,16 @@
+.input {
+    border-bottom: 1px solid var(#262626);
+    box-sizing: border-box;
+    height: 3.25rem;
+    padding: 1.375rem 0.5rem 0.5rem;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #00000000;
+    visibility: hidden;
+}
+
+.input:focus {
+    outline: none;
+}

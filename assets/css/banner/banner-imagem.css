@@ -1,0 +1,14 @@
+.banner__imagem {
+    animation: zoom 25s;
+    height: 100vh;
+    width: 100vw;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

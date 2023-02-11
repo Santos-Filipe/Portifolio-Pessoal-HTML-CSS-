@@ -1,0 +1,9 @@
+.input-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    position: relative;
+}

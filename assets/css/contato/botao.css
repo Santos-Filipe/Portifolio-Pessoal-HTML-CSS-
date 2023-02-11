@@ -1,0 +1,18 @@
+.botao {
+    align-self: center;
+    background-color: #262626;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    max-width: 20rem;
+    padding: 1.125rem;
+    text-align: center;
+    width: 100%;
+}
+
+.botao:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Web Filipe | Contato</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https: //fonts.googleapis.com/css2?family= Open+Sans: família= Montserrat:wght@100;200;300;400;700 &família= Open+Sans:wght@300;400;700 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/contato/secaoFormulario-container.css">
+    <link rel="stylesheet" href="./assets/css/contato/secao-formulario.css">
+    <link rel="stylesheet" href="./assets/css/contato/inputMensagem-erro.css">
+    <link rel="stylesheet" href="./assets/css/contato/input.css">
+    <link rel="stylesheet" href="./assets/css/contato/input-label.css">
+    <link rel="stylesheet" href="./assets/css/contato/input-container.css">
+    <link rel="stylesheet" href="./assets/css/contato/formulario.css">
+    <link rel="stylesheet" href="./assets/css/contato/formulario-legenda.css">
+    <link rel="stylesheet" href="./assets/css/contato/secaoFormulario-titulo.css">
+    <link rel="stylesheet" href="./assets/css/contato/secaoFormulario-subtitulo.css">
+    <link rel="stylesheet" href="./assets/css/contato/botao.css">
+    <link rel="stylesheet" href="./assets/css/contato-social/contato-social.css">
+    <link rel="stylesheet" href="./assets/css/contato-social/contatoSocial-lista.css">
+</head>
+<body>
+    <main class="secao__formulario">
+        <h1 class="secao__formulario-titulo">Filipe Dev</h1>
+        <section class="secao__formulario-container">
+            <h2 class="secao__formulario-subtitulo">Fale comigo</h2>
+            <form action="./index.html" class="formulario">
+                <fieldset>
+                    <legend class="formulario__legenda">Informações básicas e mensagem</legend>
+                    <div class="input-container">
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
+                        <label class="input__label" for="nome">Nome</label>
+                        <span class="input__mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="input-container">
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
+                        <label class="input__label" for="email">Email</label>
+                        <span class="input__mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="input-container">
+                        <textarea name="mensagem" id="mensagem" class="input" type="text" required></textarea>
+                        <label class="input__label" for="mensagem" cols="70" rows="10">Mensagem</label>
+                        <span class="input__mensagem-erro">Este campo não está válido</span>
+                    </div>
+                </fieldset>
+
+                <button class="botao">Cadastrar</a>
+            </form>
+        </section>
+        <div class="contato__social">
+            <ul class="contato__social-lista">
+                <li><a href="https://www.linkedin.com/in/filipe-dos-santos-soares-57a084234/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://wa.me/qr/LSP6HR4LEB7DB1"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://github.com/Santos-Filipe"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

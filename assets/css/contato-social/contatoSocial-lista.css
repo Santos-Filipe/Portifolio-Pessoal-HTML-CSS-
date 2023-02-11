@@ -1,0 +1,11 @@
+.contato__social-lista {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.contato__social-lista a {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+}

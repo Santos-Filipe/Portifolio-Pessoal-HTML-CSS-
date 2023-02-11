@@ -1,0 +1,19 @@
+.projetos__card-imagem {
+    background-color: #262626;
+    border-radius: .5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.projetos__card-imagem img {
+    border-radius: .5rem;
+    height: 100%;
+    object-fit: cover;
+    opacity: .7;
+    transition: opacity .5s;
+    width: 100%;
+}
+
+.projetos__card:hover .projetos__card-imagem img {
+    opacity: .2;
+}

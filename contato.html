@@ -33,17 +33,22 @@
                 <fieldset>
                     <legend class="formulario__legenda">Informações básicas e mensagem</legend>
                     <div class="input-container">
-                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" minlength="3" required>
                         <label class="input__label" for="nome">Nome</label>
                         <span class="input__mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" minlength="4" required>
                         <label class="input__label" for="email">Email</label>
                         <span class="input__mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <textarea name="mensagem" id="mensagem" class="input" type="text" required></textarea>
+                        <input name="cpf" id="cpf" class="input" type="cpf" placeholder="cpf" data-tipo="cpf" minlength="11" maxlength="14" required>
+                        <label class="input__label" for="cpf">CPF</label>
+                        <span class="input__mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="input-container">
+                        <textarea name="mensagem" id="mensagem" class="input" type="text" minlength="10" required></textarea>
                         <label class="input__label" for="mensagem" cols="70" rows="10">Mensagem</label>
                         <span class="input__mensagem-erro">Este campo não está válido</span>
                     </div>
@@ -60,5 +65,6 @@
             </ul>
         </div>
     </main>
+    <script src="./assets/js/mains.js" type="module"></script>
 </body>
 </html>
